@@ -31,6 +31,9 @@
 An online ordering website (Like Domino’s Pizza) with the functionalities including Login, Logout, Register, Select Items, Checkout, and Review orders.
 
 ## 🎥 Demo <a name = "demo"></a>
+
+### Demo Website (Heroku): https://online-burger-shop.herokuapp.com/
+
 ### 💿 Register a New User
 <br/>
 
