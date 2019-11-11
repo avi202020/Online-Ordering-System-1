@@ -10,6 +10,7 @@ const xss = require('xss-clean');
 const rateLimit = require('express-rate-limit');
 const hpp = require('hpp');
 const cors = require('cors');
+const path = require('path');
 
 
 // Load env vars
@@ -59,6 +60,15 @@ app.use('/order',order)
 
 // Error path handler
 app.use(errorHandler)
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static('build'));
+
+  app.get('/', (req, res) => {
+    res.sendFile(path.resolve(__dirname, "build", "index.html"));
+  });
+  
+}
 
 
 const PORT = process.env.PORT || 5000;
