@@ -18,6 +18,7 @@
     "express-rate-limit": "^5.0.0",
     "helmet": "^3.21.2",
     "hpp": "^0.2.2",
+    "http-proxy-middleware": "^0.20.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.7.9",
     "node-sass": "^4.13.0",
@@ -33,7 +34,6 @@
     "redux-thunk": "^2.3.0",
     "xss-clean": "^0.1.1"
   },
-  "proxy": "http://localhost:5000",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
