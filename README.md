@@ -33,6 +33,8 @@ An online ordering website (Like Domino’s Pizza) with the functionalities incl
 ## 🎥 Demo <a name = "demo"></a>
 
 ### Demo Website (Heroku): https://online-burger-shop.herokuapp.com/
+- Demo Username: huangsite378@gmail.com
+- Demo Passwords: 123456
 
 ### 💿 Register a New User
 <br/>
